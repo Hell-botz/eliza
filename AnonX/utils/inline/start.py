@@ -53,10 +53,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com"
-                )
-        ],
+        
      ]
     return buttons
