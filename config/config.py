@@ -7,10 +7,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "17427408"))
-API_HASH = getenv("API_HASH","9699e632de895e7d566c241615a0e637")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH")
 
-BOT_TOKEN = getenv("BOT_TOKEN","5715140632:AAEgvCfcsTjI0McMYGoGL06f6Ocb6vStuwU")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
